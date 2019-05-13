@@ -142,14 +142,14 @@ FROM <表名或视图名>[,<表名或视图名>]···
 [ ORDER BY <列名2> [ASC|DESC] ··· ]
 ```
 说明：
-    SQL查询中子句顺序为`SELECT` , `FROM` , `WHERE` , `GROUP BY` , `HAVING` 和 `ORDER BY`。其中，`SELECT` 和 `FROM` 是必需的，`HAVING`必须搭配`GROUP BY`子句使用
+    SQL查询中子句顺序为`SELECT` , `FROM` , `WHERE` , `GROUP BY` , `HAVING` 和 `ORDER BY`。其中，`SELECT` 和 `FROM` 是必需的，`HAVING`必须搭配`GROUP BY`子句使用    
 | SQ查询子句  | 对应关系代数运算 |
 | ---------|------------|
 | `SELECT` | 投影 |
 | `FROM`    | 笛卡尔积 | 
 | `WHERE` | 关系谓词 | 
 
-**WHERE 子句中的条件表达式中可以使用的运算符**
+**WHERE 子句中的条件表达式中可以使用的运算符**    
 | 运算符 |   | 含义 |
 |----------|----|-------|
 | 集合成员运算符 |  IN | 在集合中 |
@@ -202,6 +202,7 @@ SELECT <字段名1>,<字段名2>
 一个集合为输入，返回单个值得函数称为聚集函数。SQL提供5个预定义得集函数：平均值AVG，最小值MIN ，最大值 MAX ，求和 SUM 以及计数 COUNT   
 
 **集函数的功能**  
+
 | 集函数名 | 功能 |
 | ------------- | -------| 
 |COUNT([DISTINCT\|ALL] *) | 统计元组个数 |
