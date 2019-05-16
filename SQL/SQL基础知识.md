@@ -590,3 +590,7 @@ ALERT TRIGGER <触发器名> [{BEFORE|AFTER}]
 ```sql
 DROP TRIGGER <触发器名>[,...<触发器名>]
 ```
+
+
+> hajnxg@126.com 2019 - 05 整理  转载请注明出处  如有错误 敬请指正
+
